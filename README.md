@@ -96,8 +96,11 @@ wget https://raw.githubusercontent.com/ablucher/The-Cancer-Targetome/refs/heads/
 Retrieve the DTI prediction results from https://github.com/biodev/targetome-expanded/ using git-lfs.
 
 The file in question is: TargetomeKG_Complex2_DTI_preds_03-19-2026.csv.gz
+```
 
-**If desired**
+**Optional**
+
+``` bash
 
 # Drugbank
 
@@ -131,7 +134,10 @@ targets:tar_make()
 -   igraph
 -   openxlsx
 
+## License
+
+This work is licensed under GPL-3.0
+
 ## Contact
 
 Please open an Issue for questions or problems related to this workflow.
-
